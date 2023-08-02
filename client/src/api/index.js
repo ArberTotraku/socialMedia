@@ -5,7 +5,7 @@ import axios from "axios"
  export const editPost=(id,updatedPost)=> axios.patch(`${url}/${id}`,updatedPost)
  export const removePost=(id)=>axios.delete(`${url}/${id}`)
  export const addLike=(id)=>axios.patch(`${url}/${id}/likePost`)
-//crud
+
 
  export const getPosts= async (dispatch)=>{
     try{

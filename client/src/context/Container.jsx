@@ -1,7 +1,7 @@
 import {MyContext} from "./Context"
 import Reducer from "../reducers/Reducer.js"
 import {useEffect,useReducer,useState} from "react"
-import * as api from "../api/index.js "
+import * as api from "../api/index.js"
 
 const initialState={posts:[],user:null} 
 const Container=(props)=>{
